@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+}
+#futer{
+  position: fixed;
+  padding: 10px 0;
+ background-color:#cce6ff;
+
+ 
+ width: 100%
+}
+table{
+	letter-spacing: 1.2px;
+}
+table :target-within:hover{
+	background-color: #fcecdd;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+  background:#4da9ff;
+	color:white;
+
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
